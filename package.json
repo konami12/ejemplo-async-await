@@ -1,0 +1,30 @@
+{
+  "name": "async-await",
+  "version": "1.0.0",
+  "description": "Ejemplo del manejo de Async/Await",
+  "main": "index.js",
+  "scripts": {
+     "postinstall" : "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/konami12/ejemplo-async-await"
+  },
+  "keywords": [
+    "Ejmplo",
+    "async/await"
+  ],
+  "author": "jorge.mendez.ortega@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-regenerator": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
